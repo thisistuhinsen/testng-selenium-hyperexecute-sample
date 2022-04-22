@@ -1,5 +1,5 @@
 language = "bash"
-env[user=$LT_USERNAME, key=$LT_ACCESS_KEY]
+[env:user=$LT_USERNAME, key=$LT_ACCESS_KEY]
 run = """
 wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
 chmod u+x hyperexecute
