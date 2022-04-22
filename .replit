@@ -1,7 +1,6 @@
 language = "bash"
-[user="$LT_USERNAME", key="$LT_ACCESS_KEY"]
 run = """
 wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
 chmod u+x hyperexecute
-./hyperexecute -user -key -i yaml/linux/testng_hyperexecute_autosplit_sample.yaml
+./hyperexecute -user=$LT_USERNAME -key=$LT_ACCESS_KEY -i yaml/linux/testng_hyperexecute_autosplit_sample.yaml
 """
