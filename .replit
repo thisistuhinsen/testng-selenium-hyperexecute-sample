@@ -1,4 +1,5 @@
 language = "bash"
+[$LT_USERNAME=$LT_USERNAME, $LT_ACCESS_KEY=$LT_ACCESS_KEY]
 run = """
 wget https://downloads.lambdatest.com/hyperexecute/linux/hyperexecute
 chmod u+x hyperexecute
